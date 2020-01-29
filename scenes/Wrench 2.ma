@@ -1,6 +1,6 @@
 //Maya ASCII 2018 scene
 //Name: Wrench 2.ma
-//Last modified: Tue, Jan 28, 2020 07:48:47 PM
+//Last modified: Tue, Jan 28, 2020 08:16:20 PM
 //Codeset: 1252
 requires maya "2018";
 requires "mtoa" "3.2.0.2";
@@ -1907,12 +1907,11 @@ createNode lambert -n "WrenchMesh";
 createNode shadingEngine -n "lambert2SG";
 	rename -uid "729897AF-4931-0A9D-BB02-07BED3AD621C";
 	setAttr ".ihi" 0;
-	setAttr -s 2 ".dsm";
 	setAttr ".ro" yes;
 createNode materialInfo -n "materialInfo1";
 	rename -uid "DDE641AA-4738-070C-5909-33AE9E1E341E";
 createNode nodeGraphEditorInfo -n "hyperShadePrimaryNodeEditorSavedTabsInfo";
-	rename -uid "6051E553-41A0-F5B5-038D-FFAD075707E9";
+	rename -uid "43096E78-4611-6179-25F2-56AB94CC8BA7";
 	setAttr ".tgi[0].tn" -type "string" "Untitled_1";
 	setAttr ".tgi[0].vl" -type "double2" -2925.2579561244661 -2147.0541263129298 ;
 	setAttr ".tgi[0].vh" -type "double2" 2702.4138851239263 1352.5631056400994 ;
