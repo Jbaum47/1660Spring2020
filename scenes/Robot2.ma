@@ -1,6 +1,6 @@
 //Maya ASCII 2018 scene
 //Name: Robot2.ma
-//Last modified: Fri, Feb 28, 2020 10:07:30 PM
+//Last modified: Fri, Feb 28, 2020 10:08:02 PM
 //Codeset: 1252
 requires maya "2018";
 requires "mtoa" "3.2.0.2";
@@ -14,13 +14,13 @@ fileInfo "license" "student";
 createNode transform -s -n "persp";
 	rename -uid "673F43BA-4555-B57B-98D8-1A8FAB524205";
 	setAttr ".v" no;
-	setAttr ".t" -type "double3" -52.198931471355806 26.827243415581265 49.177377392303413 ;
-	setAttr ".r" -type "double3" -14.738352730946209 671.39999999999839 2.4047312986793515e-15 ;
+	setAttr ".t" -type "double3" 51.997195752994642 39.686185835975635 25.524567925521794 ;
+	setAttr ".r" -type "double3" -30.33835273087524 782.99999999995055 3.5028868261371227e-15 ;
 createNode camera -s -n "perspShape" -p "persp";
 	rename -uid "F673FC37-4E4A-7BDF-ABBD-2CABAA09CFE0";
 	setAttr -k off ".v" no;
 	setAttr ".fl" 34.999999999999993;
-	setAttr ".coi" 76.045401010420463;
+	setAttr ".coi" 63.759557214764357;
 	setAttr ".imn" -type "string" "persp";
 	setAttr ".den" -type "string" "persp_depth";
 	setAttr ".man" -type "string" "persp_mask";
